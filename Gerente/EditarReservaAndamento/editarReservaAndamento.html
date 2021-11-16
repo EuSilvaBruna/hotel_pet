@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Reservas em Andamento</title>
+    <script src="https://kit.fontawesome.com/69b56e3e4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./editarReservaAndamento.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Hotel Pet</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-paw"></i>Pets</a></li>
+                <li><a href="#"><i class="fas fa-user"></i>Usuários</a></li>
+                <li><a href="#"><i class="fas fa-book-open"></i>Reservas</a></li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="header">
+                <li><a href="#"><i class="fas fa-user"></i>Bruna Silva</a></li>
+            </div>
+
+            <div class="info">
+                <p>
+                    <a href="">Home</a>/
+                    <a href="">Reservas</a>/
+                    <a href="">Editar Reservas</a>
+                </p>
+
+                <div class="container_dentro">
+                    <h2>Editar Reserva</h2>
+                    <div class="campos">
+                        <label for="">Proprietário *</label><br>
+                        <input type="text" class="proprietario"><br>
+
+                        <label for="">Pet *</label><br>
+                        <input type="text" class="pet"><br>
+
+                        <label for="">Perído *</label><br>
+                        <input type="date" name="p_inicial" id="p_inicial" class="periodo">
+                        <input type="date" name="p_final" id="p_final" class="periodo"><br>
+
+                        <label for="">Notas</label><br>
+                        <input type="text" class="notas"><br>
+
+                        <label for="">Status *</label><br>
+                        <select name="status" id="" class="status">Status *</select><br>
+
+                        <label for="">Anotações do funcionário</label><br>
+                        <input type="text" class="anotacoes_fun"><br>
+
+                        <div class="imagens">
+                            <img src="" alt="">
+                        </div><br>
+
+                        <p>`Total das diárias: ${}`</p><br>
+
+                        <div class="btns">
+                            <button class="btn_salvar"><i class="far fa-save"></i> Salvar</button>
+                            <button class="btn_limpar"><i class="fas fa-redo-alt"></i> Limpar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

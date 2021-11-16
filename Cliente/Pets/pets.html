@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+    <script src="https://kit.fontawesome.com/69b56e3e4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./pets.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Hotel Pet</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-paw"></i>Pets</a></li>
+                <li><a href="#"><i class="fas fa-user"></i>Usuários</a></li>
+                <li><a href="#"><i class="fas fa-book-open"></i>Reservas</a></li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="header">
+                <li><a href="#"><i class="fas fa-user"></i>Bruna Silva</a></li>
+            </div>
+
+            <div class="info">
+                <p>
+                    <a href="">Home</a>/
+                    <a href="">Pets</a>
+                </p>
+
+                <div class="container_dentro">
+                    <h2>Pets</h2>
+
+                    <button class="btn_add_reserva">
+                        <i class="fas fa-plus"></i> Nova reserva
+                    </button>
+
+                    <div class="container_dados">
+                        <label for="">Id</label><br>
+                        <input type="text" class="id"><br>
+
+                        <label for="">Nome</label><br>
+                        <input type="text" class="nome"><br>
+
+
+                        <label for="">Raça</label><br>
+                        <input type="text" class="raca"><br>
+
+                        <label for="">Tamanho</label><br>
+                        <input type="text" class="tamanho"><br>
+
+
+                        <div class="btns">
+                            <button type="button" class="pesquisar"><i class="fas fa-search"></i>Pesquisar</button>
+                            <button type="reset" class="limpar"><i class="fas fa-redo-alt"></i>Limpar</button>
+                        </div>
+                    </div>
+
+                    <div class="tabelas">
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Id <i class="fas fa-arrow-down"></i></th>
+                                    <th>Nome <i class="fas fa-arrow-down"></i></th>
+                                    <th>Tipo <i class="fas fa-arrow-down"></i></th>
+                                    <th>Raça <i class="fas fa-arrow-down"></i></th>
+                                    <th>Tamanho <i class="fas fa-arrow-down"></i></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td>15113848148418</td>
+                                    <td>Max</td>
+                                    <td>Cachorro</td>
+                                    <td>Pastor alemão</td>
+                                    <td>Grande</td>
+                                    <td><a href="#" class="liink">Visualizar</a></td>
+                                    <td><a href="#" class="liink">Editar</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td>925484165653</td>
+                                    <td>Ginger</td>
+                                    <td>Gato</td>
+                                    <td>Não Definida</td>
+                                    <td>Pequeno</td>
+                                    <td><a href="#" class="liink">Visualizar</a></td>
+                                    <td><a href="#" class="liink">Editar</a></td>
+                                </tr>
+                               
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

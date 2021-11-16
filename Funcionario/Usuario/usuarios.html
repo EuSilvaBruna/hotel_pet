@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários</title>
+    <script src="https://kit.fontawesome.com/69b56e3e4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./usuarios.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Hotel Pet</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-paw"></i>Pets</a></li>
+                <li><a href="#"><i class="fas fa-user"></i>Usuários</a></li>
+                <li><a href="#"><i class="fas fa-book-open"></i>Reservas</a></li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="header">
+                <li><a href="#"><i class="fas fa-user"></i>Bruna Silva</a></li>
+            </div>
+            <div class="info">
+                <p>
+                    <a href="">Home</a>/
+                    <a href="">Usuários</a>
+                </p>
+
+                <div class="container_dentro">
+                    <h2>Usuários</h2>
+                    <div class="botoes">
+                        <button><i class="fas fa-user-plus"></i> Novo</button>
+                        <button><i class="fas fa-user-minus"></i> Remover</button>
+                        <button><i class="fas fa-check"></i> Mudar status</button>
+                    </div>
+
+                    <div class="visualizar">
+                        <p>Visualizar por:
+                            <input type="button" value="Usuários" class="usu">
+                            <input type="button" value="Função" class="fun">
+                        </p>
+                    </div>
+
+                    <div class="c_dentro_dentro">
+
+                        <div class="c_dentro_dentro_dentro">
+                            <div class="esquerdo">
+                                <label for="">Id</label><br>
+                                <input type="text" class="id"><br>
+                                <label for="">email</label><br>
+                                <input type="email" name="email" id="email" class="email"><br>
+                                <label for="">status</label><br>
+                                <select name="status" id="status" class="status"></select>
+                            </div>
+                            <div class="direito">
+                                <label for="">criado em</label><br>
+                                <input type="date" name="data" id="data" class="data"><br>
+                                <label for="">nome</label><br>
+                                <input type="text" class="nome"><br>
+                                <label for="funcao"></label>Função<br>
+                                <select name="funcao" id="funcao" class="funcao"></select>
+                            </div>
+                        </div>
+
+
+                        <div class="btns">
+                            <button type="button" class="pesquisar"><i class="fas fa-search"></i>Pesquisar</button>
+                            <button type="reset" class="limpar"><i class="fas fa-redo-alt"></i>Limpar</button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="tabelas">
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Foto</th>
+                                    <th>email <i class="fas fa-arrow-down"></i></th>
+                                    <th>nome <i class="fas fa-arrow-down"></i></th>
+                                    <th>função <i class="fas fa-arrow-down"></i></th>
+                                    <th>status <i class="fas fa-arrow-down"></i></th>
+                                    <th>criado em <i class="fas fa-arrow-down"></i></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td><i class="fas fa-user"></i></td>
+                                    <td>brunadasilva@pet.com</td>
+                                    <td>Bruna Silva</td>
+                                    <td>Gerente</td>
+                                    <td><button>Status</button></td>
+                                    <td>20/07/2021</td>
+                                    <td><a href="#" class="liink">Visualizar</a></td>
+                                    <td><a href="#" class="liink">Editar</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td><i class="fas fa-user"></i></td>
+                                    <td>brunadasilva@pet.com</td>
+                                    <td>Bruna Silva</td>
+                                    <td>Gerente</td>
+                                    <td><button>Status</button></td>
+                                    <td>20/07/2021</td>
+                                    <td><a href="#" class="liink">Visualizar</a></td>
+                                    <td><a href="#" class="liink">Editar</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td><i class="fas fa-user"></i></td>
+                                    <td>brunadasilva@pet.com</td>
+                                    <td>Bruna Silva</td>
+                                    <td>Gerente</td>
+                                    <td><button>Status</button></td>
+                                    <td>20/07/2021</td>
+                                    <td><a href="#" class="liink">Visualizar</a></td>
+                                    <td><a href="#" class="liink">Editar</a></td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
